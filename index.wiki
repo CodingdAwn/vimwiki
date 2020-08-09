@@ -1,4 +1,5 @@
 ==== My Wiki ====
 
+[[Personal]] -- 个人记录
 
 [[Work]] -- 钛核
