@@ -6,4 +6,5 @@
 == 功能记录 ==
 [[Features]] -- some features that I implemented
 
-== 
+== 刚入职时的记录 ==
+Newbie -- 刚入职 可能有很多网址 端口 路径的记录
