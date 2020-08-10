@@ -8,3 +8,4 @@
 [[gamexshard]] -- 逻辑服务器
 [[gmserver]] -- gm
 [[scene]] -- 场景
+[[common]] -- 通用
