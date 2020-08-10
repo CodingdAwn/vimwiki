@@ -9,3 +9,6 @@
 == 工作中的记录 ==
 [[Work]] -- 钛核
 
+== golang ==
+[[go-learn]] -- some go tips
+

@@ -1,0 +1,3 @@
+= learn golang =
+
+* go的加载流程 import --> const --> var --> init()
