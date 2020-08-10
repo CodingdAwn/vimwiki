@@ -7,7 +7,8 @@
   Handle函数为客户端的请求处理函数
 
 * account下看起来是数据层
-  在core/account/accout.go->Load() 中加载数据库数据
+  - 在core/account/accout.go->Start() 中调用Load加载数据库
+  - 真正的读取都是在调用Data的时候 将数据复制给Account.Profile
 
 * reqresp.go消息处理 handle处理完成后 调用makeChange通知客户端修改的数据...
 
