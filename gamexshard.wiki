@@ -1,0 +1,9 @@
+= 逻辑服 =
+
+* logics下的handlers是所有的通信协议
+  协议的生成会按照目录文件名生成到 gen_reg_func.go中
+  在tools/gen_proto_tool/下 template是生成用的模版 
+  所有的handler的对外接口都是一样的
+  Handle函数为客户端的请求处理函数
+
+* account下看起来是数据层
