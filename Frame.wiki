@@ -9,3 +9,4 @@
 [[gmserver]] -- gm
 [[scene]] -- 场景
 [[common]] -- 通用
+[[chat]] -- 聊天服
