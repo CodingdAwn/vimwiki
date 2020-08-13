@@ -1,0 +1,22 @@
+= 任务 =
+
+```sequence
+title:任务状态改变
+client->gamex:1.EnterWorld:Handle 将任务的所有数据统一发送下去
+client->gamex:2.TaskStateUpdate:Handle 处理任务完成
+gamex->gamex:3.Taskcolumn:FinishTask 调用task.go:FinishTask
+gamex->client:4.设置任务完成状态 如果可以自动提交则自动提交任务 OnTaskChildFinish下发
+gamex->client:5.如果自动提交的话 会自动接取下一个任务 并给予奖励同步RewardMsg 自己并没有添加奖励?
+gamex->client:6.如果可以传送 会在提交任务时进行传送 Send2SceneServ
+client->gamex:7.TaskCommit:Handle 处理任务手动提交
+gamex->gamex:8.同5-6步
+```
+
+```sequence
+title:任务采集
+client->gamex:1.C2GTaskNpcCollect:Handle 客户端请求采集 Dispatch发送事件
+gamex->gamex:2.accout:Init 中提前注册了eventHandler 如TaskColumn LevelInfos LineUpInfo BossChallengeInfos
+gamex->gamex:3.task:Handle HandleEvent 这里看条件 分为collect_npc_no_repeat, collect_npc_can_repeat
+gamex->gamex:4.collect_npc_can_repeat:HandleEvent处理 更新采集计数 GetAndSetCurTaskParam
+gamex->client:5 G2CPushTaskUpdate 同步给客户端进度
+```
