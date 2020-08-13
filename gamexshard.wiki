@@ -1,5 +1,8 @@
 = 逻辑服 =
 
+== 任务 ==
+[[Task]] -- task
+
 * logics下的handlers是所有的通信协议
   协议的生成会按照目录文件名生成到 gen_reg_func.go中
   在tools/gen_proto_tool/下 template是生成用的模版 
