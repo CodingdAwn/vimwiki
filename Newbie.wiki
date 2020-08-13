@@ -8,3 +8,6 @@
 
 == 问题 ==
 [[Question]] -- some ??
+
+== 建议 ==
+[[suggestion]] -- 一些建议
