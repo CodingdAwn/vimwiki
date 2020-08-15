@@ -17,6 +17,6 @@ title:任务采集
 client->gamex:1.C2GTaskNpcCollect:Handle 客户端请求采集 Dispatch发送事件
 gamex->gamex:2.accout:Init 中提前注册了eventHandler 如TaskColumn LevelInfos LineUpInfo BossChallengeInfos
 gamex->gamex:3.task:Handle HandleEvent 这里看条件 分为collect_npc_no_repeat, collect_npc_can_repeat
-gamex->gamex:4.collect_npc_can_repeat:HandleEvent处理 更新采集计数 GetAndSetCurTaskParam
-gamex->client:5 G2CPushTaskUpdate 同步给客户端进度
+gamex->gamex:4.collect_npc_can_repeat:HandleEvent处理 更新采集计数 GetAndSetCurTaskParam 同时会更新tmpParams
+[[gamex-]]>client:5 G2CPushTaskUpdate 同步给客户端进度
 ```
