@@ -3,3 +3,4 @@
 * go的加载流程 import --> const --> var --> init()
 * 新建一个go文件 提示无法找到go: cannot find main moudle
   原因是需要创建一个 go.mod文件 使用 go mod init
+* 同一个package下多个go文件import同一个package只会初始化一次
