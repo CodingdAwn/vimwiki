@@ -11,3 +11,12 @@
 * oss -- http://signin.aliyun.com/taiyouxi/login.htm
          taiyouxi-dev@taiyouxi
          R5UkyPtSeXUiGnba 
+ 
+ == 测试数据库数据是否正确 ==
+例子: 测试taskline数据是否正确
+func main() {
+	str := "\b\xfc\x9f\x0c\x12\x06\b\x01\x10\x03\x1a\x00\x12\x06\b\x02\x10\x01\x1a\x00"
+	taskline := &pb.TaskLine{}
+	ret := proto.Unmarshal([]byte(str), taskline)
+	fmt.Println(ret, taskline)
+}
