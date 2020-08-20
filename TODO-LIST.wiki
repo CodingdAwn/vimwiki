@@ -4,9 +4,6 @@
 * [ ] 写一个shell 找出服务器启动的残余进程 kill掉
       本身就有 sh servermanager.sh stop
 
-* 任务cheat 发送400200 3 panic 数组越界 已修改
-* process没有初始化
-* 
 * redis-cli操作
   select 2
   hgetall gamex:1:profile:taskline:12:1:2a3a5354-a692-427c-9c25-5fba387c94ab
