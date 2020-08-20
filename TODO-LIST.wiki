@@ -4,6 +4,7 @@
 * [ ] 写一个shell 找出服务器启动的残余进程 kill掉
       本身就有 sh servermanager.sh stop
 
-* redis-cli操作
-  select 2
-  hgetall gamex:1:profile:taskline:12:1:2a3a5354-a692-427c-9c25-5fba387c94ab
+1.位面副本任务(熟悉整合剧情副本，boos挑战，新位面副本等副本的流程) 6分
+2.任务变身(任务触发变身，变身切换逻辑) 4分
+[[3.任务限时]](限时逻辑，任务失败状态，任务重置逻辑) 6分
+4.熟悉并添加任务的单元测试 4分
