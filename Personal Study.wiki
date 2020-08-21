@@ -11,4 +11,6 @@
 
 * [ ] 帧同步的各种优化问题
 
+* [ ] mongo redis kafka elstic模糊查询 aws独有数据库
+
 == 提醒 ==
