@@ -25,3 +25,6 @@ func main() {
 * redis-cli操作
   select 2
   hgetall gamex:1:profile:taskline:12:1:2a3a5354-a692-427c-9c25-5fba387c94ab
+  del gamex:1:modules:goobalinfo
+  flushdb 清库
+  keys *查看所有表

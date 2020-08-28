@@ -1,0 +1,5 @@
+= command-line tools =
+
+* fzf 可以这么使用
+  cat ** tab 即可触发fzf搜索
+  kill -9 tab 即可触发 kill的模糊搜索 非常好用!
