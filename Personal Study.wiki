@@ -12,6 +12,10 @@
 
 * [ ] 帧同步的各种优化问题
 
-* [ ] etcd mongo redis kafka elstic模糊查询 aws独有数据库
+* etcd mongo redis kafka elstic模糊查询 aws独有数据库
+  1. [X] etcd 主要就是为了服务发现，配置管理
+  2. [X] mongodb vs redis --> mongodb处理海量数据访问数据在磁盘 redis在内存可持久化
+  3. [ ] kafka是mq消息队列 nats其实也是消息队列
+  4. [ ] elstic模糊查询
 
 == 提醒 ==
