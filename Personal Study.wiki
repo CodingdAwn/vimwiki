@@ -12,6 +12,10 @@
 
 * [ ] 帧同步的各种优化问题
 
-* [ ] etcd mongo redis kafka elstic模糊查询 aws独有数据库
+* etcd mongo redis kafka elstic模糊查询 aws独有数据库 应用场景区别
+  1. [ ] etcd
+  2. [ ] mongo redis 
+  3. [ ] kafka
+  4. [ ] elstic
 
 == 提醒 ==
