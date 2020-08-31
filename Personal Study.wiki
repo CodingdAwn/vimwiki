@@ -4,6 +4,15 @@
 * [ ] gd gi coc和Omnisharp现在配置的是冲突的怎么解决 让coc不管c#的事
 * [ ] vim-go的错误提示不及时 在保存或修改后 不会立刻显示
 * [ ] go fixer
+* [ ] coc使用preview打开定义buffer
+      function! s:definition_other_window() abort
+        if winnr('$') >= 4 || (winwidth(0) - (max([len(line('$')), &numberwidth-1]) + 1)) < 110
+          exec "normal \<Plug>(coc-definition)"
+        else
+          exec 'vsplit'
+          exec "normal \<Plug>(coc-definition)"
+        endif
+      endfunction
 
 == 想要学的东西 ==
 * [ ] 算法： 动态规划 今天做leetcode10正则匹配的题时  动态规划题 完全听不懂
@@ -19,3 +28,4 @@
   4. [ ] elstic模糊查询
 
 == 提醒 ==
+
