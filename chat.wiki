@@ -37,3 +37,18 @@
 * 如果是无状态的chatx 我觉得可以在chatx上面有一个订阅服务
   这一层订阅服务是知道所有的room信息的 （还没有看完goim的实现 看一下他是怎么做的)
   否则就得需要chatx之间的通信 效率低 可能跨多个服务器（如之前的做法: 把消息还要广播给其他服务器)
+* goim的同步 Job层并不是收到一条发一条 而是缓存起来 批量处理（每个一定时间 或者 消息数量到达一定数量）统一发送
+* comet上是按照bucket分room channel 类似hash处理 分桶的原因就是减少 加锁的影响
+* 用户是随机散在所有 comet 节点上的，同一个房间里的用户也是散在所有 comet 节点上，此时房间弹幕如何发给每一个用户？
+  对于房间弹幕，job 会从 router 中获取对应房间 id 的用户散落在哪些 comet 节点上，将信息同时转发给所有 comet 节点，
+  每个 comet 会将消息发给房间内的用户
+  - 实际上 
+    1. job会把消息发送到所有comet上
+    2. comet遍历所有bucket调用broadcastroom 
+    3. bucket有一个管道列表 room的消息会依次放到列表中处理 默认32 
+    4. go roomproc再根据roomid 把消息发到指定的room下   这里注意的是 因为bucket的区分 导致每个bucket上可能都有同一个room
+    5. room.push -> 因为room上有所有玩家的channel room.push会将消息push到每个channel上 之后再由channel发送
+* comet 上如何管理用户？
+  用户连接 comet 后，会创建 channel 对象，管理连接。comet 上会构建多个 Bucket，通过 RoomId 取余找到目标 Bucket，此举为了降低锁竞争。
+  Bucket 中有一个 Room 对象是 Hash，通过 RoomId 哈希取值，将该 channel 指针追加到对象尾部，遍历这个对象就可以找到对应房间里所有用户。
+  同时 Bucket 有 Channel 哈希对象，将 channel 放入哈希中，可便捷找到对应用户
