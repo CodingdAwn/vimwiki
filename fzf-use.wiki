@@ -1,4 +1,4 @@
-= command-line tools =
+= fzf use=
 
 * fzf 可以这么使用
   cat ** tab 即可触发fzf搜索

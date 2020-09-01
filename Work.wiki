@@ -11,3 +11,6 @@
 
 == 工作会议记录 ==
 [[会议记录]] -- 一些开会上的总结记录
+
+== work wiki ==
+[[同步confluence]] -- 还是先写在vimwiki中 然后同步到confluence上
