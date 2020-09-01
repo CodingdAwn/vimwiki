@@ -52,3 +52,10 @@
   用户连接 comet 后，会创建 channel 对象，管理连接。comet 上会构建多个 Bucket，通过 RoomId 取余找到目标 Bucket，此举为了降低锁竞争。
   Bucket 中有一个 Room 对象是 Hash，通过 RoomId 哈希取值，将该 channel 指针追加到对象尾部，遍历这个对象就可以找到对应房间里所有用户。
   同时 Bucket 有 Channel 哈希对象，将 channel 放入哈希中，可便捷找到对应用户
+* 如果是私聊的话 
+  1. 先去redis拿server的数据
+  2. 然后发到 mq
+  3. job拿到数据后根据server发送到对应的comet
+* 如果是全局广播
+  1. 直接发送给mq
+  2. job拿到消息后 广播给所有comet
