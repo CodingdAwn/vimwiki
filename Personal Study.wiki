@@ -13,9 +13,6 @@
           exec "normal \<Plug>(coc-definition)"
         endif
       endfunction
-* 添加一些快捷键 经常用到的 
-    1. [X] nerdtree定位到当前目录
-    2. [X] 打开终端
 
 == 想要学的东西 ==
 * [ ] 算法： 动态规划 今天做leetcode10正则匹配的题时  动态规划题 完全听不懂
