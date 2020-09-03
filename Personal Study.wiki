@@ -3,8 +3,6 @@
 == 近期要做的事情 ==
 * [ ] gd gi coc和Omnisharp现在配置的是冲突的怎么解决 让coc不管c#的事 可以使用vim-plug的管理 只对某类文件生效
 * [ ] vim-go的错误提示不及时 在保存或修改后 不会立刻显示
-* [X] go fixer
-      直接使用coc的fix就行 <leader>of quick fix  <leader>oa code action  
 * [ ] coc使用preview打开定义buffer 查一下怎么使用preview打开 skywind3000的插件里应该有一个例子
       function! s:definition_other_window() abort
         if winnr('$') >= 4 || (winwidth(0) - (max([len(line('$')), &numberwidth-1]) + 1)) < 110
