@@ -7,4 +7,4 @@
 [[fzf-use]] -- some nice tools
 
 == 工具介绍 ==
-自己想总结一下自己的终端 --- a little shame
+[[自己想总结一下自己的终端]] --- a little shame
