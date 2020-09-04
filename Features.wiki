@@ -1,10 +1,2 @@
 = 记录完成的功能 =
 
-* chat的一些疑问
-  1. [ ] 私聊 频道 组队 副本 工会 订阅不同的组
-  2. [ ] 如果是无状态的 那么同一队伍 同一副本 同一频道需要在一个服么
-  3. [ ] https://alexstocks.github.io/html/pubsub.html 实时消息系统实现
-         https://juejin.im/post/6844903827536117774 goim介绍
-         
-  
-
