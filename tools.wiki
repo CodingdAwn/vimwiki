@@ -5,6 +5,7 @@
 
 == tool useage ==
 [[fzf-use]] -- some nice tools
+[[netcat]] -- nc尝试链接端口
 
 == 工具介绍 ==
 [[自己想总结一下自己的终端]] --- a little shame
