@@ -5,3 +5,6 @@
 
 == Terminal ==
 [[command-line-tools]] -- some nice tools
+
+== git ==
+[[merge_rebase]] -- test merge and rebase
