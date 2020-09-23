@@ -1,0 +1,4 @@
+= go build 报错 =
+1. used for two different module paths: 
+   go.mod 使用了 replace 语句将一个依赖 A 的地址替换为另一个依赖 B, 如果 B 本身就已经被项目使用的话, 就会出现这个错误
+3. 

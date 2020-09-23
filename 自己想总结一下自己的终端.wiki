@@ -1,0 +1,9 @@
+= 终端工具推荐 =
+
+[[打造终端环境]] -- iterm2+tmux+zsh+neovim-----》》》 just perfect!!!
+
+[[更优雅的文件管理器]] -- ranger-----》》》 太帅了
+
+[[比grep更好用的rg]] -- ripgrep
+
+[[vim环境打造]] -- neovim

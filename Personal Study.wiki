@@ -1,9 +1,16 @@
 = 个人记录 =
 
 == 近期要做的事情 ==
-* [ ] gd gi coc和Omnisharp现在配置的是冲突的怎么解决 让coc不管c#的事
-* [ ] vim-go的错误提示不及时 在保存或修改后 不会立刻显示
-* [ ] go fixer
+* [ ] coc使用preview打开定义buffer 查一下怎么使用preview打开 skywind3000的插件里应该有一个例子
+      function! s:definition_other_window() abort
+        if winnr('$') >= 4 || (winwidth(0) - (max([len(line('$')), &numberwidth-1]) + 1)) < 110
+          exec "normal \<Plug>(coc-definition)"
+        else
+          exec 'vsplit'
+          exec "normal \<Plug>(coc-definition)"
+        endif
+      endfunction
+* [ ] go snippets
 
 == 想要学的东西 ==
 * [ ] 算法： 动态规划 今天做leetcode10正则匹配的题时  动态规划题 完全听不懂
@@ -15,7 +22,8 @@
 * etcd mongo redis kafka elstic模糊查询 aws独有数据库
   1. [X] etcd 主要就是为了服务发现，配置管理
   2. [X] mongodb vs redis --> mongodb处理海量数据访问数据在磁盘 redis在内存可持久化
-  3. [ ] kafka是mq消息队列 nats其实也是消息队列
-  4. [ ] elstic模糊查询
+  3. [X] kafka是mq消息队列 nats其实也是消息队列 可以看到nats的效率更高 但是不提供持久化 事物处理
+  4. [X] elstic模糊查询
 
 == 提醒 ==
+

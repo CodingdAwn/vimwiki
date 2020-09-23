@@ -8,3 +8,11 @@
 
 == git ==
 [[merge_rebase]] -- test merge and rebase
+
+== tool useage ==
+[[fzf-use]] -- some nice tools
+[[netcat]] -- nc尝试链接端口
+
+== 工具介绍 ==
+[[自己想总结一下自己的终端]] --- a little shame
+[[mac下的工具]] --- 专门解决一些mac下问题的软件

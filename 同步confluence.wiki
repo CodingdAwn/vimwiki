@@ -1,0 +1,5 @@
+= work confluence =
+
+== 记录一些问题 ==
+* [[gobuild报错]] --- 整理一些go build报错的解决方案
+
