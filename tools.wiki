@@ -8,6 +8,7 @@
 
 == git ==
 [[merge_rebase]] -- test merge and rebase
+[[delete_multiple_branch]] -- delete local and remote branch
 
 == tool useage ==
 [[fzf-use]] -- some nice tools
