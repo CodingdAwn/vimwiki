@@ -1,3 +1,5 @@
+= 2020-12-13 =
+== coc preview gd ==
 * [X] coc使用preview打开定义buffer 查一下怎么使用preview打开 skywind3000的插件里应该有一个例子
       function! s:definition_other_window() abort
         if winnr('$') >= 4 || (winwidth(0) - (max([len(line('$')), &numberwidth-1]) + 1)) < 110

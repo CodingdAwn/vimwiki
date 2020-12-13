@@ -1,8 +1,10 @@
-== 2020-09-03 ==
+= 2020-09-03 =
 
+== terminal nerdtree current ==
 * 添加一些快捷键 经常用到的 
     1. [X] nerdtree定位到当前目录
     2. [X] 打开终端
    
+== coc code action quick fix ==
 * [X] go fixer
       直接使用coc的fix就行 <leader>of quick fix  <leader>oa code action  
