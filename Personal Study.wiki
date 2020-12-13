@@ -1,15 +1,6 @@
 = 个人记录 =
 
 == 近期要做的事情 ==
-* [ ] coc使用preview打开定义buffer 查一下怎么使用preview打开 skywind3000的插件里应该有一个例子
-      function! s:definition_other_window() abort
-        if winnr('$') >= 4 || (winwidth(0) - (max([len(line('$')), &numberwidth-1]) + 1)) < 110
-          exec "normal \<Plug>(coc-definition)"
-        else
-          exec 'vsplit'
-          exec "normal \<Plug>(coc-definition)"
-        endif
-      endfunction
 
 == 想要学的东西 ==
 * [ ] 想弄明白lsp是怎么运行的 怎么才能试着维护一个
