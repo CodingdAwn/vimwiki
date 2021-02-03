@@ -13,4 +13,5 @@
 [[go-learn]] -- some go tips
 
 == tools ==
-[[tools]] -- record some useful tolls
+[[tools]] -- record some useful tools
+
