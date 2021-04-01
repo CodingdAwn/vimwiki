@@ -93,4 +93,59 @@
 
 == 2021.2.3 ==
 * [X] 聊天普罗米修斯废弃修改所有接口
-* [ ] 聊天配合修改
+* [ ] 聊天配合修改 年后处理了
+
+== 2021.3.8 ==
+* [X] 聊天偶现bug 客户端没有链接聊天服
+* [X] 功能解锁 离线问题  离线问题不需要处理
+* [X] 功能解锁 添加新的类型处理 
+* [X] 功能解锁 加string参数 分支修改
+* [X] git操作流程的文档整理 完成了一部分
+
+== 2021-03-09 ==
+* [X] git操作流程的文档整理
+* [X] 聊天优化 基础改动都改了 还需要和客户端讨论可行性 以及 配合测试
+* [X] 公平竞技 估分
+* [X] 看一下3v3的逻辑 考虑如何加入限免武将 以及 赛季
+
+== 2021-03-11 ==
+* [X] 公平竞技 3v3逻辑 只写一点season通用代码
+* [X] 公平竞技 定义 3v3 boss挑战协议
+* [X] 聊天优化 配合修改组队协议 修改QA服登陆不上的问题 [[condition中任务管理器和account还是有待优化的]]
+
+== 2021-03-12 ==
+* [X] 组队活动 保存同步地图id cache中修改同步地图 离线的地图的定义 修改队伍判定 全都使用地图id判断
+* [X] 组队活动 组队PVE队员切换场景导致队长的副本状态错误 导致队员在离开副本后进行跟随时 提示队长地图错误
+* [X] 组队活动 队员主动退出时 如果在副本 同步玩法 不允许退出队伍
+* [ ] 公平竞技 boss挑战的逻辑添加
+
+== 2021.3.16 ---> 2021.3.19 ==
+* [ ] 组队上下马 配合是否需要服务器处理
+组队世界boss
+组队活动 世界boss聊天链接
+组队跟随 移动包 是否有时序问题？
+
+== 2021-03-16 ==
+* [X] 公平竞技 boss挑战的逻辑添加
+
+== 2021-03-17 ==
+* [X] 公平竞技 boss挑战测试
+* [X] 重新登陆 看不到其他玩家 但是其他玩家能看到自己 没有发addentity
+       原因是跟随状态下 客户端没有上传位置 导致服务器看来 已经不在视野里了
+* [X] 公平竞技积分接口 公平竞技积分测试
+
+== 2021-03-18 ==
+* [X]  3v3的逻辑 赛季逻辑
+
+== 2021-03-20 ==
+* [X]  3v3的逻辑 3v3公平积分
+* [X]  3v3的逻辑 周免
+* [X] 测试赛季切换
+* [X] boss挑战结算有报错
+"L":"ERROR","TS":"[2021-03-19T05:00:03.308+0800]","CALLER":"tilogs/tilogger.go:43:gitlab.taiyouxi.cn/platform/share/planx/tilogs.PanicCatcher","MSG":"[BossChallenge 1 rank_point92] DelayRank mirrorTimerChan panic, err:runtime error: invalid memory address or nil pointer dereference","ServerType":"crossx","ServerId":1,"STACK":"gitlab.taiyouxi.cn/platform/share/planx/tilogs.PanicCatcher\n\t/Users/taihe/work/jws2/share/planx/tilogs/tilogger.go:43\nruntime.gopanic\n\t/usr/local/opt/go@1.14/libexec/src/runtime/panic.go:975\nruntime.panicmem\n\t/usr/local/opt/go@1.14/libexec/src/runtime/panic.go:212\nruntime.sigpanic\n\t/usr/local/opt/go@1.14/libexec/src/runtime/signal_unix.go:695\nvcs.taiyouxi.net/jws2/crossx/member/modules/rank/speed_rank.(*SpeedRank).WriteOss\n\t/Users/taihe/work/jws2/server/jws2/crossx/member/modules/rank/speed_rank/speed_rank.go:87\nvcs.taiyouxi.net/jws2/common/rank.(*DelayRank).balance\n\t/Users/taihe/work/jws2/server/jws2/common/rank/delay_rank.go:459\nvcs.taiyouxi.net/jws2/common/rank.(*DelayRank).Start.func1.4\n\t/Users/taihe/work/jws2/server/jws2/common/rank/delay_rank.go:208\nvcs.taiyouxi.net/jws2/common/rank.(*DelayRank).Start.func1\n\t/Users/taihe/work/jws2/server/jws2/common/rank/delay_rank.go:210\ngitlab.taiyouxi.cn/platform/share/planx/util.(*WaitGroupWrapper).Wrap.func1\n\t/Users/taihe/work/jws2/share/planx/util/wait_group_wraper.go:20"}
+
+== 2021-03-25 ==
+* [X] bug 聊天如果发送 空文本报错
+* [X] task effect中account accountmodel的问题
+* [X] 功能解锁 没测
+* [X] 做完boss挑战 检查todo 
