@@ -7,7 +7,8 @@
 [[Life]] -- 生活娱乐等
 
 == 工作中的记录 ==
-[[Work]] -- 钛核
+[[Tai_Work]] -- 钛核
+[[Work]] -- 文脉
 
 == golang ==
 [[go-learn]] -- some go tips
