@@ -30,9 +30,13 @@ http://127.0.0.1:8000/logic/map/exit_map?roleId=0
 * [ ] 角色状态管理 按位 封装CanMove CanCast等
 * [ ] 战斗缩放 即delta * 2 * 3
 * [ ] 连接管理 Role信息完善 发包 不是拿conn 而是id
+* [ ] 添加buffer管理 降低堆内存申请开销
 
 == personal schedule ==
 go source code net: http context timer 
+* [ ] http
+* [ ] context,timer 这俩简单一点先看看吧
+
 开源项目: go的一些开源项目 
 * [ ] dubbo-go 阿里 简单了解
 * [ ] kratos 战神 b站 一套微服务架构 可以看看
