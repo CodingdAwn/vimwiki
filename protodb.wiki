@@ -1,5 +1,0 @@
-= 存储相关 =
-
-* gamexshared/protogen/ 游戏逻辑服的db类
-  - 例如在BaseInfo->Data() 会调用->Load()加载数据
-  - 在逻辑服中如 account.Profile.MaterialBag.Data()调用后即会初始化数据

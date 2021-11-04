@@ -4,19 +4,18 @@
 * CatchMouse -- mac下 快速切换多显示器focus
 
 == Terminal ==
-[[command-line-tools]] -- some nice tools
+[[./tools/terminal]] -- some nice tools
 
 == git ==
-[[merge_rebase]] -- test merge and rebase
-[[delete_multiple_branch]] -- delete local and remote branch
+[[./tools/git]] -- test merge and rebase
 
-== tool useage ==
-[[fzf-use]] -- some nice tools
-[[netcat]] -- nc尝试链接端口
+== command usage ==
+[[./tools/usage/fzf-use]] -- some nice tools
+[[./tools/usage/netcat]] -- nc尝试链接端口
 
 == 工具介绍 ==
-[[自己想总结一下自己的终端]] --- a little shame
-[[mac下的工具]] --- 专门解决一些mac下问题的软件
+[[./tools/introduce/自己想总结一下自己的终端]] --- a little shame
+[[./tools/introduce/mac下的工具]] --- 专门解决一些mac下问题的软件
 
 == 好用的工具记录 ==
 surfingkeys -- 在浏览器中使用vim模式 非常非常爽!

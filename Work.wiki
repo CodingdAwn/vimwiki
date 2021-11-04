@@ -1,11 +1,11 @@
 = 文脉互动 =
 
 == todo ==
-[[TODO_List]]
+[[./work/wenmai/TODO_List]]
 
 == 周报 ==
-[[周报索引]]
+[[./work/wenmai/周报索引]]
 
 == 建议 ==
-[[对项目的建议吧。。]]
+[[./work/wenmai/对项目的建议吧。。]]
 
