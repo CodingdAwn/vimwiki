@@ -54,6 +54,14 @@ go help buildmode
   import, into a Go plugin. Packages not named main are ignored.
 ```
 
+btw gcc编译指令:
+```
+gcc -c -fPIC lib.c -o lib.o -fno-gnu-unique
+gcc lib.o -shared -o lib.so -fno-gnu-unique
+gcc -o main main.c -ldl --no-gnu-unique
+添加--no-gnu-unique依旧不行
+```
+
 #### 加载plugin方式
 这中间 试了很多种方案 试图解决不能原名替换so 加载的so内存无法释放
 - 第一种尝试 使用 github.com/rainycape/dl 的库封装了dlopen等操作  
@@ -75,6 +83,8 @@ go help buildmode
 1. 生成的动态库 不能替换
 2. 生成的动态库 内存不会释放
 3. go plugin不支持windows
+4. c-shared模式没有导出.h头文件 -> 需要指定//export funcName
+5. 使用RTLD_LOCAL RTLD_LAZY RTLD_NOW均不行.
 
 ## 代码简单摘要
 pulgin.go:

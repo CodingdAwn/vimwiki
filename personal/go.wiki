@@ -1,5 +1,5 @@
 == go ==
 
-- go代码热更 [[./go/go代码热更.md]]
+- go代码热更 -> [[./go/go代码热更.md]]
 
-- 
+- go 链接标记 ldflags -> [[./go/go_ldflags.md]]

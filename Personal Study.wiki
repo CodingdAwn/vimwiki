@@ -15,3 +15,5 @@
 
 == 总结 ==
 [[./personal/go]] -> go的一些总结 遇到的问题等
+[[./personal/wsl]] -> wsl的一些问题
+
