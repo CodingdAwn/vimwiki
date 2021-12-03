@@ -38,6 +38,7 @@ go build -buildmode=c-shared -o plugin.so plugin.go
 ```
 window:
 ```
+// windows下不支持plugin
 go build -o plugin.dll -buildmode=plugin plugin.go
 go build -buildmode=c-shared -o plugin.dll plugin.go
 ```
@@ -150,3 +151,7 @@ func main() {
 	}
 }
 ```
+
+### 补充问题
+1.plugin was built with a different version of package golang.org/x/sys/unix  
+  原因在于go plugin不仅要求go的版本 package的版本一致 还需要gopath一致 
