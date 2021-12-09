@@ -26,7 +26,7 @@ netsh interface portproxy show all
 ```
 ```
 // 这个是删除映射
-netsh interface portproxy delete v4tov4 listenport=10810
+netsh interface portproxy delete v4tov4 listenport=10810 listenaddress=0.0.0.0
 ```
 
 ### 中途遇到的问题

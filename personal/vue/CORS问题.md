@@ -29,7 +29,7 @@ Origin 包含通訊協定、網域和通訊埠三個部分。
 
 所以從 https://shubo.io 發出的往 https://othersite.com/data 的請求會像這樣：
 ```
-GET /data/
+[[GET]] /data/
 Host: othersite.com
 Origin: https://shubo.io
 ...

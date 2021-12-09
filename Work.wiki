@@ -11,3 +11,6 @@
 
 == 记录 ==
 [[./work/wenmai/文脉备忘录]]
+
+== 3d GM命令 ==
+[[./work/wenmai/GM命令]]
