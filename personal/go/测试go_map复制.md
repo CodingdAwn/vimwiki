@@ -71,5 +71,17 @@ go的map其实就是 runtime下的*hmap
 
 当前汇编之后发现 还是有各种情况的 有的时候是一条指令 有的时候是多条指令
 
-还需要更深入的理解可能才行..
+### 查询资料后
+https://github.com/Terry-Mao/gopush-cluster/issues/44 goim的作者 一直认为 指针赋值是原子的 在goim项目也有类似的操作
+而相当一部分人也认为 是不确定行为 
 
+https://stackoverflow.com/questions/21447463/is-assigning-a-pointer-atomic-in-go
+https://forum.golangbridge.org/t/is-assigning-a-map-atomic-in-go/18602
+http://yanyiwu.com/work/2015/02/07/golang-concurrency-safety.html
+都认为应该明确使用sync.automic package才是明确的原子操作
+
+最后我觉得也应该定义为 未定义行为 
+
+因为是否是一条汇编指令 取决很多因素 故不应该依赖它 
+
+而明确的使用sync.automic则绝对是确定性行为
