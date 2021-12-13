@@ -61,6 +61,9 @@ func main() {
 */
 ```
 
+### 开启race测试
+在操作operator= 和 map[index]的时候 还是会报race问题
+
 ### 结论
 go的map其实就是 runtime下的*hmap
 
