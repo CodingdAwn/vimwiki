@@ -12,3 +12,4 @@
 [[./personal/go]] -> go的一些总结 遇到的问题等
 [[./personal/wsl]] -> wsl的一些问题
 [[./personal/vue]] -> 使用vue 遇到的问题
+[[./personal/system]] -> 系统知识
