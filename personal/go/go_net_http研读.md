@@ -249,11 +249,11 @@ return resp
 
 ### 关注的问题
 如何处理一个req一个reponse
-- 关键应该在于 requestAndChan中ch是一个unbuffered channel
+- 关键应该在于 requestAndChan中`ch`是一个unbuffered channel
 衍生问题 那么多条连接 可以保证顺序么
 - 不能 而且也没必要啊 
 如何处理同步 异步request
-异步request是有上层逻辑处理 
+异步request是有`上层逻辑`处理 
 
 ### 一些新的写法
 使一个struct 不可比较 很多struct都加上了 _ incomparable

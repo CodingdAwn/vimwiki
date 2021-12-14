@@ -6,7 +6,7 @@ Cross-Origin Resource Sharing, 跨来源资源共享
 ## 会出现什么问题
 在同源政策下，非同源的 request 則會因為安全性的考量受到限制。
 
-瀏覽器會強制你遵守 CORS (Cross-Origin Resource Sharing，跨域資源存取) 的規範，否則瀏覽器會讓 request 失敗。
+瀏覽器會強制你遵守 CORS (`Cross-Origin Resource Sharing`，跨域資源存取) 的規範，否則瀏覽器會讓 request 失敗。
 
 ## 什么情况下算是同源呢
 * 相同的通訊協定 (protocol)，即 http/https

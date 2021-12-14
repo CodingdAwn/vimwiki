@@ -2,7 +2,7 @@
 
 #### 前提
 - wsl2
-- cmd或者powershell在管理员模式下
+- cmd或者powershell在`管理员模式`下
 
 #### 添加映射的脚本
 ```

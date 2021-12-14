@@ -32,9 +32,10 @@ netsh interface portproxy delete v4tov4 listenport=10810 listenaddress=0.0.0.0
 ### 中途遇到的问题
 1. gopath问题 ps. 这个是题外话了 gopath center和scene有冲突 使用临时变量解决
 2. center启动失败 本地的mysql redis都没有。。
-3. mysql root连接总是有权限问题 https://stackoverflow.com/questions/39281594/error-1698-28000-access-denied-for-user-rootlocalhost 设置mysql_native_password
+3. mysql root连接总是有权限问题 [ stackoverflow ](https://stackoverflow.com/questions/39281594/error-1698-28000-access-denied-for-user-rootlocalhost) 设置mysql_native_password
 4. redis 没有密码的话也是一样的问题 添加一个密码解决
 5. center scene gateway互相没有找到 修改config配置
 6. windows下客户端连不上 wsl的服务 使用端口映射
+7. localhost在wsl下有的时候是有问题的
 
 至此终于客户端连上了wsl的游戏服务
