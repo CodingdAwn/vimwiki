@@ -20,3 +20,4 @@
 == 好用的工具记录 ==
 surfingkeys -- 在浏览器中使用vim模式 非常非常爽!
 autohotkey -- windows下的一个脚本 可以设置很多快捷键
+WeeChat -- 一个终端下的irc software
