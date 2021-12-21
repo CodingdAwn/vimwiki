@@ -295,7 +295,7 @@ func (u *unmarshalInfo) setTag(tag int, field field, unmarshal unmarshaler, reqM
 	if u.sparse == nil {
 		u.sparse = map[uint64]unmarshalFieldInfo{}
 	}
-	u.sparse[uint64(tag)] = i
+	u.sparse[uint64(tag)] = [[i]]
 }
 ```
 

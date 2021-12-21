@@ -15,7 +15,7 @@ for /F "tokens=2 delims= " %%i in ('wsl -- ifconfig eth0 ^| findstr /r "[0-9][0-
 echo %ip%
 
 netsh interface portproxy show all
-netsh interface portproxy add v4tov4 listenport=%1 connectaddress=%info% connectport=%1 listenaddress=0.0.0.0
+netsh interface portproxy add v4tov4 listenport=%1 connectaddress=%ip% connectport=%1 listenaddress=0.0.0.0
 netsh interface portproxy show all
 ```
 
@@ -35,5 +35,5 @@ for /F "tokens=3-4 delims= " %%i in ('netsh interface portproxy show all ^| find
   echo %%j
   netsh interface portproxy delete v4tov4 listenport=%%j listenaddress=0.0.0.0
 )
-netsh interface portproxy show all | findstr /r "[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*"
+netsh interface portproxy show all
 ```
