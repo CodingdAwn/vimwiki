@@ -299,13 +299,41 @@ func (u *unmarshalInfo) setTag(tag int, field field, unmarshal unmarshaler, reqM
 }
 ```
 
-### String()返回
+### varint的实现
+```
+func appendVarint(b []byte, v uint64) []byte {
+	switch {
+	case v < 1<<7:
+		b = append(b, byte(v))
+	case v < 1<<14:
+		b = append(b,
+			byte(v&0x7f|0x80),
+			byte(v>>7))
+	case v < 1<<21:
+		b = append(b,
+			byte(v&0x7f|0x80),
+			byte((v>>7)&0x7f|0x80),
+			byte(v>>14))
+}
+```
+- 如果value小于 1 << 7 则存一个byte 即最高位为0 余下7位存数据
+  可得知 最高位用来标明这个字节是否能够存储完数据
+- 如果value小于 1 << 14
+  那么写两个字节 低位字节存储 数据的低7位 |0x80说明此字节的最高位为1 即表示这个字节存储不完 继续读下一个字节
+  高位字节存储 数据的高7位 最高位为0 说明数据存储完毕
+
+总结下来就是varint的数据 每个字节只能存储7位 有一位是表示数据是否写完的
+
 
 ### 个人感受
 1. 序列化看起来又用reflect又各种转来转去 看似耗时 但实际上 序列化不就是在用cpu换内存嘛
 2. 所以为什么不能开index值 因为marshal的时候会把索引值当成tag序列化进去 
    - 这样添加新的索引值并不会有问题 因为新的索引值 没有marshal的数据 
    - 删除了索引值 也会在unmarshal的时候因为没有找到对应字段的unmarshaler而skip
+
+### 如何优化protobuf
+1. 可以看出proto的index最好从0开始 原因在于dense的这个slice是有占位符的 所有空的index都会有占位
+2. proto的结构如果index > 15个的时候 tag的存储会占用2个字节 所以尽量优先让index保持在15个以下 原因是1位msb flag 3位wiretype 所以tag只有4位
 
 ### 参考
 [csdn](https://blog.csdn.net/zxhoo/article/details/53228303)
