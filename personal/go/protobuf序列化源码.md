@@ -277,8 +277,27 @@ type unmarshalInfo struct {
 	isMessageSet    bool                          // if true, implies extensions field is valid
 }
 ```
+
 dense是一个slice 如果字段个数比较少 或者 字段索引值比较小 会直接保存到slice中 unmarshal的时候找unmarshaler更快
-同样也会放到sparse中 这里是map存放所有的
+否则使用sparse的map
+```go
+func (u *unmarshalInfo) setTag(tag int, field field, unmarshal unmarshaler, reqMask uint64, name string) {
+	i := unmarshalFieldInfo{field: field, unmarshal: unmarshal, reqMask: reqMask, name: name}
+	n := u.typ.NumField()
+	if tag >= 0 && (tag < 16 || tag < 2*n) { // TODO: what are the right numbers here?
+		// 这里是填充padding
+		for len(u.dense) <= tag {
+			u.dense = append(u.dense, unmarshalFieldInfo{})
+		}
+		u.dense[tag] = i
+		return
+	}
+	if u.sparse == nil {
+		u.sparse = map[uint64]unmarshalFieldInfo{}
+	}
+	u.sparse[uint64(tag)] = i
+}
+```
 
 ### String()返回
 
