@@ -1,5 +1,9 @@
 = 文脉互动 =
 
+项目使用gopath来管理package
+但是vim-go现在对于gopath的支持应该不太好
+经常会出现卡死情况 使用gomod的项目没有问题
+
 == todo ==
 [[./work/wenmai/TODO_List]]
 
