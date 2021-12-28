@@ -332,7 +332,7 @@ func appendVarint(b []byte, v uint64) []byte {
    - 删除了索引值 也会在unmarshal的时候因为没有找到对应字段的unmarshaler而skip
 
 ### 如何优化protobuf
-1. 可以看出proto的index最好从0开始 原因在于dense的这个slice是有占位符的 所有空的index都会有占位
+1. 可以看出proto的index最好从1(最小就是1)开始 原因在于dense的这个slice是有占位符的 所有空的index都会有占位
 2. proto的结构如果index > 15个的时候 tag的存储会占用2个字节 所以尽量优先让index保持在15个以下 原因是1位msb flag 3位wiretype 所以tag只有4位
 
 ### 参考

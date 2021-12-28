@@ -155,3 +155,6 @@ func main() {
 ### 补充问题
 1.plugin was built with a different version of package golang.org/x/sys/unix  
   原因在于go plugin不仅要求go的版本 package的`版本一致` 还需要`gopath一致`
+
+### 补充一些其他的方向
+[cgo.Handle](https://gocn.vip/topics/12493)
