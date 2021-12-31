@@ -16,3 +16,5 @@ ctrl-u主要是因为: 在一些情况下会默认插入一些字符 c-u会清�
 :h c_CTRL-r 就是为了插入register中的内容
 c-r " 就可以插入unnamed register
 
+### reference
+[stackoverflow](https://vi.stackexchange.com/questions/9751/understanding-ctrl-u-combination)

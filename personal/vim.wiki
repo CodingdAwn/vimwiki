@@ -4,4 +4,4 @@
 有的时候再次查的时候还真不好查...
 
 - <C-U>到底用处是啥 (延伸c-r)-> [[./vim/ctrl_u.md]]
-- 
+- 将scriptnames的返回输出到新的buff中 -> [[./vim/scriptnames_output.md]]
