@@ -1,0 +1,5 @@
+== annual conculsion ==
+
+以后年度总结写到这里吧
+
+- year_of_2121 -> [[./annual_conclusion/year_of_2121.md]]
