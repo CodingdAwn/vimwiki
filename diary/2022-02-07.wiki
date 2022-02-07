@@ -1,0 +1,20 @@
+write diary in 10 minutes
+
+= 2022-02-07 first =
+
+== work ==
+- [ ] consider how to optimize db interface
+
+== self improvement ==
+- [ ] consider how to self improvement
+  * start a project
+  * learn any knowlege with videos. -> maybe compiler or operating system?
+  * 我觉得现在最欠缺的就是系统的补充知识，总是这查一点那看一点的，知识不成体系，
+    所以还是看书比较好一些，网上查阅资料还是更适用于具体的问题
+- [X] learn time manager. -> write diary use vimwiki
+
+== games ==
+- [X] learn grim dawn wiki
+- [X] play hearthstone, complete daily missions
+- [ ] play grim dawn at night
+- [ ] play monster train maybe
