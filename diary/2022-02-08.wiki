@@ -1,0 +1,17 @@
+= 2022-02-08 居家办公=
+write diary in 10 minutes
+
+== work ==
+- [ ] consider how to optimize db interface
+- [ ] write some test code to verify
+
+== self improvement ==
+- [ ] start a project, a simple game?
+
+== entertainment ==
+- [ ] grim dawn next chapter
+- [ ] monster train 
+- [ ] hearthstone daily mission
+
+== optional items ==
+

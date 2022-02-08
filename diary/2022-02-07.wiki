@@ -6,7 +6,7 @@ write diary in 10 minutes
 - [ ] consider how to optimize db interface
 
 == self improvement ==
-- [ ] consider how to self improvement
+- [X] consider how to self improvement
   * start a project
   * learn any knowlege with videos. -> maybe compiler or operating system?
   * 我觉得现在最欠缺的就是系统的补充知识，总是这查一点那看一点的，知识不成体系，
@@ -16,5 +16,8 @@ write diary in 10 minutes
 == games ==
 - [X] learn grim dawn wiki
 - [X] play hearthstone, complete daily missions
-- [ ] play grim dawn at night
-- [ ] play monster train maybe
+- [X] play grim dawn at night
+- [X] play monster train maybe
+
+read game's wiki is a way to learn english (game term)
+it's helpful with game programing
