@@ -1,0 +1,14 @@
+= 2022-02-09 work-db =
+
+== work ==
+- [X] consider how to optimize db interface
+- [X] write some test code to verify
+
+== self improvement ==
+- [ ] start a project?
+- [X] learn how use go benchmark
+
+== entertainment ==
+- [X] grim dawn affix
+- [ ] play grim dawn 
+- [X] hearthstone daily mission

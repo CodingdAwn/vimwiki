@@ -1,0 +1,12 @@
+= 2022-02-10 tired =
+
+== work ==
+- [ ] confirm with leader about reflect of db operate
+- [ ] consider use code generation
+
+== self improvement ==
+- [ ] learn protobuf lastest version, it was changed a lot with wenmai used/
+
+== entertainment ==
+- [ ] hearthstone dialy mission
+- [ ] grim dawn wiki

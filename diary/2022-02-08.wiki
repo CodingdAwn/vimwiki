@@ -9,9 +9,9 @@ write diary in 10 minutes
 - [ ] start a project, a simple game?
 
 == entertainment ==
-- [ ] grim dawn next chapter
-- [ ] monster train 
-- [ ] hearthstone daily mission
+- [X] grim dawn next chapter
+- [X] monster train 
+- [X] hearthstone daily mission
 
 == optional items ==
 
