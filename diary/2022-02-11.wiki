@@ -1,0 +1,13 @@
+= 2022-02-11 integrate =
+
+== work ==
+- [X] confirm with leader about reflect of db operate
+- [ ] integrate test code to project mir-v4
+- [ ] optimize reflect code through cache field number 
+
+== self improvement ==
+- [X] grim dawn wiki, check part of(all) affix
+
+== entertainment ==
+- [ ] open steam cloud
+- [ ] play grim dawn and hearthstone
