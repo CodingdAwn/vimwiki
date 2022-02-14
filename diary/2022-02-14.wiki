@@ -1,0 +1,15 @@
+= 2022-02-14 work at home =
+
+== work ==
+- [X] test db optimize
+- [X] reflect.type.Implements() interface's problem
+- [ ] add some unit test for db optimize
+
+== self improvement ==
+- [ ] think! start a project?
+- [X] check youtube subscribes
+- [ ] check mails
+
+== games ==
+- [X] sorry, i gave up grim dawn
+- [ ] path of exile
