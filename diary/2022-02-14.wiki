@@ -8,8 +8,8 @@
 == self improvement ==
 - [ ] think! start a project?
 - [X] check youtube subscribes
-- [ ] check mails
+- [X] check mails
 
 == games ==
 - [X] sorry, i gave up grim dawn
-- [ ] path of exile
+- [X] path of exile

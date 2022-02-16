@@ -1,0 +1,12 @@
+= 2022-02-15 hello world =
+
+== work ==
+- [X] add some unit test for db optimize
+- [ ] modify exist features to use new db interface
+
+== self improvement ==
+- [ ] think! start a project?
+
+== entertainment ==
+- [X] path of exile
+- [X] learn poe game mechanics through wiki
