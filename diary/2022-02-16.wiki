@@ -1,10 +1,10 @@
 = 2022-02-16 bad mood =
 
 == work ==
-- [ ] modify exist features to use new db interface
+- [X] modify exist features to use new db interface
 
 == self improvement ==
 - [ ] think! start a project?
 
 == entertainment ==
-- [ ] path of exile's wiki
+- [X] path of exile's wiki

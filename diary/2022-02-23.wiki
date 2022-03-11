@@ -1,0 +1,8 @@
+= 2022-02-23 interview prepare =
+
+== interview prepare ==
+- c++ base knowlege
+- leetcode
+
+== entertainment ==
+- poe? it's too many to learn, just a little bored
