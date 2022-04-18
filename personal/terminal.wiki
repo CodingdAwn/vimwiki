@@ -1,0 +1,4 @@
+= terminal问题 =
+
+- secureCRT相关 -> [[./terminal/secureCRT.md]]
+

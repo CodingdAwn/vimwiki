@@ -2,6 +2,7 @@
 
 * Typora -- 可以将markdown格式化成序列图
 * CatchMouse -- mac下 快速切换多显示器focus
+* screenfetch -- 显示系统信息 logo
 
 == Terminal ==
 [[./tools/terminal]] -- some nice tools
