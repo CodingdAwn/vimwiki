@@ -5,3 +5,4 @@
 
 - <C-U>到底用处是啥 (延伸c-r)-> [[./vim/ctrl_u.md]]
 - 将scriptnames的返回输出到新的buff中 -> [[./vim/scriptnames_output.md]]
+- 内网vim启动报错的查找记录 -> [[./vim/error_detected_snr_52_maps]]

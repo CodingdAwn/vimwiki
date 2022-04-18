@@ -14,9 +14,9 @@
 * [ ] linux下环境的开发环境不熟悉
 * [ ] 在没有插件的情况下 vim gdb的使用
 * [ ] 尝试写一个插件 使用grep 搜索然后 展示 选择 跳转
-* [ ] vim报错问题 不适用vim-init和vim-plugin了 直接加载试试
 
 == trivial things ==
+* [ ] 调整内网终端的颜色
 
 == 想要学的东西 ==
 * [ ] 跟着cppcon再巩固下modern c++的基础
