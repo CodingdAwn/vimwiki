@@ -7,7 +7,7 @@
 [[./work/pwrd/周报]]
 
 == 建议 ==
-./work/pwrd/建议-问题
+[[./work/pwrd/建议-问题]]
 
 == 记录 ==
 [[./work/pwrd/memo]]
