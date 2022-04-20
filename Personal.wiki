@@ -19,6 +19,7 @@
 * [ ] 配置securecrt windows的快捷键
 * [ ] 配置split的快捷键 最好可以手动觉得split的类型 
   使用默认的vsp的方式会先生成3个vertical tab 再生成田字格
+* [ ] system copy 可以使用一个文件中转去做
 
 == 想要学的东西 ==
 * [ ] 跟着cppcon再巩固下modern c++的基础
