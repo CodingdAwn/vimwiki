@@ -14,12 +14,16 @@
 * [ ] linux下环境的开发环境不熟悉
 * [ ] 在没有插件的情况下 vim gdb的使用
 * [ ] 尝试写一个插件 使用grep 搜索然后 展示 选择 跳转
+* [ ] complete make tutorial, 弄明白项目中的makefile
+* [ ] complete linux assembly
 
 == trivial things ==
-* [ ] 配置securecrt windows的快捷键
-* [ ] 配置split的快捷键 最好可以手动觉得split的类型 
+* [X] 配置securecrt windows的快捷键
+* [X] 配置split的快捷键 最好可以手动觉得split的类型 
   使用默认的vsp的方式会先生成3个vertical tab 再生成田字格
-* [ ] system copy 可以使用一个文件中转去做
+  不行。。。 
+* [X] system copy 可以使用一个文件中转去做
+* [X] 修改Grep脚本 兼容"a b"查找 暂时先使用grep -nr
 
 == 想要学的东西 ==
 * [ ] 跟着cppcon再巩固下modern c++的基础
