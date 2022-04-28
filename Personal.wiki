@@ -23,7 +23,8 @@
   使用默认的vsp的方式会先生成3个vertical tab 再生成田字格
   不行。。。 
 * [X] system copy 可以使用一个文件中转去做
-* [X] 修改Grep脚本 兼容"a b"查找  使用-w
+* [X] 修改Grep脚本 兼容"a b"查找 使用a.b a*.b等正则方式
+* [X] 了解 grep -w 作用 -w是匹配整个字符串
 
 == 想要学的东西 ==
 * [ ] 跟着cppcon再巩固下modern c++的基础
