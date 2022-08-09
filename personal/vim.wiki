@@ -10,3 +10,6 @@
 - 内网vim启动报错的查找记录 -> [[./vim/error_detected_snr_52_maps]]
 
 - 把当前行append到上一行的末尾 -> [[./vim/join_line.md]]
+
+- 关于vim的中一些编码的理解 -> [[./vim/encoding.md]]
+
