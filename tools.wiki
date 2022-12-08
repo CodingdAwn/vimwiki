@@ -23,3 +23,4 @@ surfingkeys -- 在浏览器中使用vim模式 非常非常爽!
 autohotkey -- windows下的一个脚本 可以设置很多快捷键
 WeeChat -- 一个终端下的irc software
 等宽的字体，支持中文 -- [sarasa](https://github.com/be5invis/Sarasa-Gothic)
+figlet 一个文本转化的工具

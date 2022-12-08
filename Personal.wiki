@@ -39,3 +39,5 @@ back to basic: The Abstract Machine 就没有看完 主要也是主讲人跟那�
 [[./personal/vim]] -> vim遇到的问题,知识
 [[./personal/terminal]] -> terminal相关
 [[./personal/gdb]] -> gdb相关
+[[./personal/cpp]] -> c++问题
+
