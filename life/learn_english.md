@@ -5,6 +5,7 @@
 尽量每周能总结一篇
 
 == Teds talks ==
+[ted website](http://TED.com)
 
 == Ellen show ==
 
