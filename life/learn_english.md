@@ -5,7 +5,8 @@
 尽量每周能总结一篇
 
 == Teds talks ==
-[ted website](http://TED.com)
+official web: [ted website](http://TED.com)
+* The secrets of learning a new language ->  
 
 == Ellen show ==
 
