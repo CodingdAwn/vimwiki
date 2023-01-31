@@ -17,7 +17,10 @@
 - 尽量每天都看会书吧
 
 == trivial things ==
-
+- Amethyst  windows manager for mac 试一下 https://www.youtube.com/watch?v=7Z9-Ry4yGNc&ab_channel=TechCraft
+- Rainmeter windows desktop 挺好看的 https://www.rainmeter.net
+- Hyper V on Windows 装个majaro 还是挺爽的 试一下 https://www.youtube.com/watch?v=FCIA4YQHx9U&ab_channel=ChrisTitusTech
+ 
 == 想要学的东西 ==
 * [ ] 跟着cppcon再巩固下modern c++的基础 现在的项目用的是c98啊 暂时搁置吧
 * [ ] 编译原理
