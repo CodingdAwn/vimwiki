@@ -6,6 +6,7 @@
 
 ## Terminal
 [[./tools/terminal]] -- some nice tools
+tldr -- 终端百科
 
 ## git
 [[./tools/git]] -- test merge and rebase
