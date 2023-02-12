@@ -11,6 +11,9 @@
 怎样才能对团队做出贡献 提高自己的价值
 
 ## 近期要做的事情
+some manjaro software
+- need mail client
+- [need](need) a music player
 
 ## 坚持要做的事情
 - 至少每周都要学懂一篇Ted Talk的视频，记录笔记，可以每天反复观看，加强记忆
