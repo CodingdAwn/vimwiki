@@ -11,8 +11,6 @@
 怎样才能对团队做出贡献 提高自己的价值
 
 ## 近期要做的事情
-- [ ] clash for windows rules规则不能用了
-- [X] clash for windows 怎么使用最新的版本 下载后也更改不了 pacman安装也没有用
 - [ ] mail太不稳定 基本没法用 是梯子的问题么
 - [ ] ranger添加json文件的支持
 
