@@ -7,6 +7,7 @@
 ## Terminal
 [[./tools/terminal]] -- some nice tools
 tldr -- 终端百科
+neomutt -- 终端的mail client
 
 ## git
 [[./tools/git]] -- test merge and rebase
