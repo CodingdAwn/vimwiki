@@ -30,12 +30,13 @@
 工作 [[work/pwrd/TODO]]
 
 ## 总结
-[[./personal/go]] -> go的一些总结,遇到的问题等
-[[./personal/wsl]] -> wsl的一些问题
-[[./personal/vue]] -> 使用vue遇到的问题
-[[./personal/system]] -> 系统知识
-[[./personal/vim]] -> vim遇到的问题,知识
-[[./personal/terminal]] -> terminal相关
-[[./personal/gdb]] -> gdb相关
-[[./personal/cpp]] -> c++问题
-[personal linux](./personal/linux) -> 折腾linux
+[go的一些总结,遇到的问题等](./personal/go)
+[wsl的一些问题](./personal/wsl)
+[使用vue遇到的问题](./personal/vue)
+[系统知识](./personal/system)
+[vim遇到的问题,知识](./personal/vim)
+[terminal相关](./personal/terminal)
+[gdb相关](./personal/gdb)
+[c++问题](./personal/cpp)
+[折腾linux](./personal/linux)
+[数据库](./personal/DB)
