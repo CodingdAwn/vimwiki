@@ -1,12 +1,8 @@
-= 生活琐事 娱乐 =
+## 生活琐事 娱乐
+* [summoner war](./life/gaming/魔灵召唤)
 
-== 个人成长 长期安排 ==
-* 可能又该写规划日记了
-* [[./life/annual_conclusion]] 年度总结
+## 个人成长 长期安排
+* [年度总结](./life/annual_conclusion)
 
-== learn english ==
-* [[./life/learn_english]] 英语学习
-
-== 娱乐？ ==
-* 会有娱乐的记录么。。
-* [life gaming 魔灵召唤](./life/gaming/魔灵召唤)
+## learn english
+* [英语学习](./life/learn_english)
