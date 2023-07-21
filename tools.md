@@ -31,3 +31,7 @@ figlet 一个文本转化的工具
 - 一个windows的桌面美化工具 [rainmeter](./tools/introduce/rainmeter.md) 
 - tilling windows manager for windows [komorebi](./tools/introduce/komorebi.md)
 - 使用hyper V with majaro hyper V 
+
+## Tips
+tldr something
+curl cht.sh/python/random+string

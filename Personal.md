@@ -40,3 +40,5 @@
 [c++问题](./personal/cpp)
 [折腾linux](./personal/linux)
 [数据库](./personal/DB)
+[csharp](./personal/csharp)
+[一些工具](./personal/tool)
