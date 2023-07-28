@@ -2,3 +2,4 @@
 
 - [SynchronizationContext](./csharp/SynchronizationContext.md)
 - [exploring the async/await state machine](./csharp/exploring_async.md)
+- [source generator](./csharp/source_generator.md)
