@@ -17,9 +17,12 @@
 ## 坚持要做的事情
 - 至少每周都要学懂一篇Ted Talk的视频，记录笔记，可以每天反复观看，加强记忆
 - 尽量每天都看会书吧
+- [english学习](https://www.youtube.com/watch?v=SJOnhWiJArM&ab_channel=Rachel%27sEnglish) 
+  这个说的很对，应该把生活中的很多部分都变成英语的，也可以经常默默跟自己对话，而且更重要的是坚持锻炼
+  经常去想周围的事情，事物怎么用英语表达
 
 ## trivial things ==
- 
+
 ## 想要学的东西
 * [ ] 跟着cppcon再巩固下modern c++的基础 现在的项目用的是c98啊 暂时搁置吧
 * [ ] 编译原理
