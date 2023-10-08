@@ -12,7 +12,11 @@
 
 ## 近期要做的事情
 - [ ] mail太不稳定 基本没法用 是梯子的问题么
-- [ ] ranger添加json文件的支持
+- [X] ranger添加json文件的支持
+- [ ] vim定时通知插件 nvim-notify
+- [ ] vim ielts
+- [ ] 使用nvim-notify，做定时通知
+- [ ] 是否可以爬自己的动态，显示在notify中
 
 ## 坚持要做的事情
 - 至少每周都要学懂一篇Ted Talk的视频，记录笔记，可以每天反复观看，加强记忆
@@ -24,9 +28,7 @@
 ## trivial things ==
 
 ## 想要学的东西
-* [ ] 跟着cppcon再巩固下modern c++的基础 现在的项目用的是c98啊 暂时搁置吧
-* [ ] 编译原理
-* [ ] 汇编
+* [ ] 跟着cppcon再巩固下modern c++的基础 现在的项目用的是c98啊 暂时搁置吧 c++ weekly
 * [ ] 坚持看一些开源代码
 
 ## Work
