@@ -12,9 +12,8 @@
 
 ## 近期要做的事情
 - [ ] mail太不稳定 基本没法用 是梯子的问题么
-- [X] ranger添加json文件的支持
 - [ ] vim定时通知插件 nvim-notify
-- [ ] vim ielts
+- [ ] vim ielts 是否可以把生词放到 生词表中 然后弹出nvim-notify确认背单词 [这里有一个雅思词汇的整理](https://github.com/fanhongtao/IELTS)
 - [ ] 使用nvim-notify，做定时通知
 - [ ] 是否可以爬自己的动态，显示在notify中
 
@@ -47,3 +46,4 @@
 [数据库](./personal/DB)
 [csharp](./personal/csharp)
 [一些工具](./personal/tool)
+[IELTS](./personal/IELTS) 
