@@ -7,3 +7,12 @@
 
 ## 还没有了解过得资料
 * [road to IELTS](https://rtiac.roadtoielts.com/?utm_source=RTI.com&utm_medium=try_freeversion&utm_campaign=RTI.com_CD#prefix=TD) 
+
+## 
+我感觉各个方面都很欠缺，想要一个高分不容易 
+grammar
+word
+read
+write
+listen
+speak
