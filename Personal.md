@@ -23,15 +23,13 @@
 - [english学习](https://www.youtube.com/watch?v=SJOnhWiJArM&ab_channel=Rachel%27sEnglish) 
   这个说的很对，应该把生活中的很多部分都变成英语的，也可以经常默默跟自己对话，而且更重要的是坚持锻炼
   经常去想周围的事情，事物怎么用英语表达
+- 每周都看下github的动态，有些推荐或者大牛starred repository还是不错的
 
 ## trivial things ==
 
 ## 想要学的东西
 * [ ] 跟着cppcon再巩固下modern c++的基础 现在的项目用的是c98啊 暂时搁置吧 c++ weekly
 * [ ] 坚持看一些开源代码
-
-## Work
-工作 [[work/pwrd/TODO]]
 
 ## 总结
 [go的一些总结,遇到的问题等](./personal/go)
