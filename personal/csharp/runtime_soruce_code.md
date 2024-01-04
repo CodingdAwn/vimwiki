@@ -4,7 +4,7 @@
 列一些感兴趣的模块，慢慢了解
 
 * [X] 学习[linq](./learn_runtime/linq.md) 
-* [ ] 学习[timer](./learn_runtime/timer.md)
+* [X] 学习[timer](./learn_runtime/timer.md)
 * [ ] 学习[thread]
 * [ ] 学习[task]
 * [ ] 学习[gc]

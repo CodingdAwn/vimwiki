@@ -6,3 +6,6 @@
 
 ## learn english
 * [英语学习](./life/learn_english)
+
+## movie web passphrase
+age myth monkey apple sunset enroll observe recall mom food maze song
