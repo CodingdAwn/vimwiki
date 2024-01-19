@@ -5,15 +5,16 @@
 
 * [X] 学习[linq](./learn_runtime/linq.md) 
 * [X] 学习[timer](./learn_runtime/timer.md)
-* [ ] 学习[thread]
+* [ ] 学习[thread] thread的东西很多，也包括task，timer等，实际上其他模块理解多了，慢慢就对thread理解多了
 * [ ] 学习[task]
+* [ ] 插播一条Task.Delay(5)的调用流程 [delay](./learn_runtime/delay.md)
 * [ ] 学习[gc]
 
 ## 工程的介绍
 1. 工程地址 -> [github](https://github.com/dotnet/runtime.git)
 2. 工程如何编译 -> 根目录下有build.sh，需要安装很多库，编译完成后输出在artifacts目录中
 3. 如何生成sln -> 使用lsp ominisharp看的源码，需要sln，linux下生成sln使用dotnet build slngen.proj
-4. TODO private corelib c#代码是一个shproj，如何生成sln
+4. private corelib c#代码是一个shproj，如何生成sln， 它的sln其实是在coreclr下的System.Private.CoreLib里面，这里的工程引用了shproj
 5. TODO coreclr代码 c的工程，makefile执行失败，没法生成compile json
 
 ## 介绍一些runtime调用的流程
@@ -104,4 +105,6 @@ coreclr是dotnet之所以跨平台的原因，他是使用c写的，部分代码
         // windows下就是CreateThread返回句柄
     }
 ```
-
+## 关于线程与cpu cores的一些认识
+在看源码时，发现Thread.CurrentThread是一个static变量，一开始没注意，就认为那永远都只有一个线程在运作啊，那如果cpu是多核的，明明cpu可以真并行的执行任务，可到了c#端为啥变成static的了呢。
+后来在discord问了大佬，才发现自己没注意c#的一个特性[ThreadStatic] 表明这个字段是每个线程独有的，这样就可以解释了，实际上runtim的运行也是并行的。
