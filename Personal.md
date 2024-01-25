@@ -13,23 +13,18 @@
 ## 近期要做的事情
 - [ ] mail太不稳定 基本没法用 是梯子的问题么
 - [ ] vim定时通知插件 nvim-notify
-- [ ] vim ielts 是否可以把生词放到 生词表中 然后弹出nvim-notify确认背单词 [这里有一个雅思词汇的整理](https://github.com/fanhongtao/IELTS)
-- [ ] 使用nvim-notify，做定时通知
-- [ ] 是否可以爬自己的动态，显示在notify中
+
+## dungeon crawl stone soup 源码学习
+* [ ] 看一下随机生成
+* [ ] 战斗逻辑，数值计算
+* [ ] UI
+* [ ] 移动，渲染等
 
 ## 坚持要做的事情
-- 至少每周都要学懂一篇Ted Talk的视频，记录笔记，可以每天反复观看，加强记忆
-- 尽量每天都看会书吧
-- [english学习](https://www.youtube.com/watch?v=SJOnhWiJArM&ab_channel=Rachel%27sEnglish) 
-  这个说的很对，应该把生活中的很多部分都变成英语的，也可以经常默默跟自己对话，而且更重要的是坚持锻炼
-  经常去想周围的事情，事物怎么用英语表达
-- 每周都看下github的动态，有些推荐或者大牛starred repository还是不错的
 
 ## trivial things ==
 
 ## 想要学的东西
-* [ ] 跟着cppcon再巩固下modern c++的基础 现在的项目用的是c98啊 暂时搁置吧 c++ weekly
-* [ ] 坚持看一些开源代码
 
 ## 总结
 [go的一些总结,遇到的问题等](./personal/go)
