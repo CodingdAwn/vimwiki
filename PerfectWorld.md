@@ -17,3 +17,8 @@
 
 ## 棋牌的一些记录
 [work pwrd mahjong](./work/pwrd/mahjong)
+
+
+## 数据对接文档的疑问
+os
+platform
