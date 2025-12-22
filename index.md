@@ -9,6 +9,7 @@
 == 工作中的记录 ==
 [[Work]] -- 文脉
 [[PerfectWorld]] -- 完美
+[GameIdea](GameIdea) -- 一些游戏想法
 
 == tools ==
 [[tools]] -- record some useful tools
