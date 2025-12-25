@@ -12,8 +12,8 @@
 
 # 近期要做的事情
 1. [ ] qutebrowser theme, dark mode有的时候变的很白
-2. [ ] rmpc快捷键搞一下
-3. [ ] 翻译工具 终端
+2. [X] rmpc快捷键搞一下 使用hyprland的配置就行了
+3. [X] 翻译工具 终端 fanyi
 
 ## 把hyprland各种东西都配好
 
@@ -22,6 +22,11 @@
 2. open source
 
 # 想要学的东西
+1. leetcode
+2. linux core
+3. c++的基础有些差
+4. 网络相关
+5. godot
 
 # 总结
 [go的一些总结,遇到的问题等](./personal/go)
