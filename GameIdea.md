@@ -21,6 +21,7 @@
 * 上面掉东西，下面选择三消
 * 砸金蛋，抓娃娃，扭蛋
 * 捉小猫 https://awaw.cc/tools/catch-the-cat/
+* 这是我用gemini实现捉小猫的连接https://gemini.google.com/share/cdaef3405dd6
 
 ## 一些一闪而过的想法
 * 多窗口互动消息
