@@ -11,7 +11,10 @@
 怎样才能对团队做出贡献 提高自己的价值
 
 # 近期要做的事情
-espeak,trans的脚本加一下
+1. [ ] espeak,trans的脚本加一下
+2. [X] lsp diagnostic 快捷键
+3. [X] clangd format style 在~/.clang-format全局的默认配置
+4. [ ] luasnip的tab总是乱窜
 
 # 坚持要做的事情
 1. english
