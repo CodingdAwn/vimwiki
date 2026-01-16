@@ -14,7 +14,8 @@
 1. [ ] espeak,trans的脚本加一下
 2. [X] lsp diagnostic 快捷键
 3. [X] clangd format style 在~/.clang-format全局的默认配置
-4. [ ] luasnip的tab总是乱窜
+4. [X] luasnip的tab总是乱窜
+5. [X] 把nvchad的配置优化一下，看怎么做custom
 
 # 坚持要做的事情
 1. english
